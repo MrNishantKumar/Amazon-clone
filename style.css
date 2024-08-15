@@ -9,9 +9,10 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .nav-logo{
+     margin-left: 20px; 
    height: 50px;
    width: 100px;
 }
@@ -21,9 +22,9 @@
     height: 50px;
     width: 100%;
 }
-.border{
+/* .border{
     border: 1.5px solid transparent;
-}
+} */
 .border:hover{
     border: 1.5px solid white
 }
@@ -97,10 +98,12 @@ span{
 }
 /* five box */
 .nav-cart i{
+
     font-size: 30px;
 }
 
 .nav-cart{
+    margin-right: 30px;
     font-size:0.85rem ;
     font-weight: 700;
 }
@@ -127,7 +130,7 @@ span{
  
 }
 .pannel-deals{
-    font-size: .9rem;
+    font-size: .9rem;border
     font-weight: 700;
 }
 /*  hero section*/
